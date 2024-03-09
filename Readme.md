@@ -1,1 +1,3 @@
 Repositório público.
+
+Este repositório é destinado à testes, aulas e exercícios que fiz durante os estudos/trabalhos...
