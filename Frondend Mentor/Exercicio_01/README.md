@@ -7,3 +7,5 @@
   Para a atividade em questão, analisei anteriormente os elementos que seriam necessários e fui "montando" mentalmente, após a análise iniciei com o código onde utilizei o básico de CSS e HTML, estilizando em partes o documento, foi a maneira que acreditei ser melhor para desenvolver.
 
   Particularmente prefiro criar pastas e arquivos separads para JS, CSS, HTML... porém como o modelo do desafio utilizava o CSS incorporado, resolvi manter o padrão do desafio.
+
+  Dentro da pasta design existem fotos de como deveria ficar o desafio e como ficou o resultado final.
