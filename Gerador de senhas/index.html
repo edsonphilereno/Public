@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Gerador de senhas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gerador">
+            <p class="password-label">Senha gerada:</p>
+            <p class="password">--------</p>
+            <div class="options">
+                <label for="length" class="label-lenght">Tamanho da senha</label>
+                <input type="number" min="1" max="30" name="length" id="length" value="1">
+                <span class="error">Selecione uma opção!</span>
+            </div>
+            <div class="options">
+                <input type="checkbox" class="chk" id="uppercase" name="uppercase" checked>
+                <label for="uppercase" class="label">Incluir letras Maiúsculas</label>
+            </div>
+            <div class="options">
+                <input type="checkbox" class="chk" id="lowercase">
+                <label for="lowercase" class="label">Incluir letras Minúsculas</label>
+            </div>
+            <div class="options">
+                <input type="checkbox" class="chk" id="numbers">
+                <label for="numbers" class="label">Incluir números</label>
+            </div>
+            <div class="options">
+                <input type="checkbox" class="chk" id="specials">
+                <label for="specials" class="label">Incluir caracteres especiais</label>
+            </div>
+            <div class="button">
+                <button class="btn gerar">Gerar Senha</button>
+                <button class="btn cancelar">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

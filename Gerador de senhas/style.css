@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gerador {
+    max-width: 700px;
+    width: 70%;
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    display: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.copy {
+    align-self: flex-end;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.copy:hover{
+    color:rgba(0, 4, 255, 0.5);
+    cursor: pointer;
+}
+
+.password-label {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    /* text-shadow: 1px 1px 5px #012500; */
+    text-shadow: 0 0 0.125em rgba(0, 131, 124, 0.5);
+}
+
+.password {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2em;
+    margin: 25px;
+    width: 90%;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 10px;
+
+    background-color: rgb(247, 247, 247);
+}
+
+.options {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.chk {
+    width: 20px;
+    height: 20px;
+}
+
+.label {
+    padding-left: 10px;
+    align-content: center;
+    user-select: none;
+}
+
+.label-lenght {
+    padding: 0 20px 0 0;
+}
+
+#length {
+    width: 50px;
+    padding-left: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    padding: 2%;
+    border-radius: 20px;
+    margin: 20px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px #000;
+}
+
+button:hover {
+    cursor: pointer;
+}
